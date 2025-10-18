@@ -28,3 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
     feed.prepend(newPost);
   });
 });
+
+const modeBtn = document.createElement("button");
+modeBtn.textContent = "🌙 Dark Mode";
+modeBtn.style.position = "fixed";
+modeBtn.style.top = "10px";
+modeBtn.style.right = "10px";
+document.body.append(modeBtn);
+
+modeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+  modeBtn.textContent = document.body.classList.contains("dark") ? "☀️ Light Mode" : "🌙 Dark Mode";
+});

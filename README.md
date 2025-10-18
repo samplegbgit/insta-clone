@@ -9,3 +9,9 @@ Added JavaScript features:
 - Like toggle  
 - Add new post button  
 Next: implement dark mode and hover effects.
+# Instagram Clone – Day 3  
+Final polish:  
+- Dark/Light mode toggle  
+- Hover animations on posts  
+- Refined responsive design  
+Project complete ✅

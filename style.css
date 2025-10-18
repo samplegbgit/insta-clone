@@ -62,3 +62,23 @@ body {
     padding: 10px;
     font-size: 20px;
 }
+
+.post:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.liked {
+    color: red;
+}
+
+.dark {
+    background: #121212;
+    color: #fff;
+}
+
+.dark .navbar,
+.dark .post {
+    background: #1e1e1e;
+    border-color: #333;
+}
